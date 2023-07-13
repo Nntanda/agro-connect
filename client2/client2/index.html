@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBot | Talk to US</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="chat_container">
+          <div id="dropdown" class="dropdown">
+            <button id="dropdown-btn" class="dropbtn"><img class="globe" src="assets/language.png"></button>
+            <div id="dropdown-content" class="dropdown-content">
+              <a id="lang-English" name="lang" href="#">English</a>
+              <a id="lang-Luganda" name="lang" href="#">Luganda</a>
+              <a id="lang-Ateso" name="lang" href="#">Ateso</a>
+              <a id="lang-Runyankole" name="lang" href="#">Runyankole</a>
+              <a id="lang-Acholi" name="lang" href="#">Acholi</a>
+              <a id="lang-Lugbara" name="lang" href="#">Lugbara</a>
+            </div>
+          </div>
+      </div>
+      <form class="Form">
+        <textarea name="prompt" rows="1" cols="1" placeholder="How can I help you?"></textarea>
+        <button id="record-button"><img src="assets/mic3.png" alt=""></button>
+        <button type="submit"><img src="assets/send.jpg" alt=""></button>
+      </form>
+     
+    </div>
+
+    <div class="footer">
+      <a href="#"><img class="footer-icon" src="./assets/left-arrow.png" alt=""></a>
+      <a href="http://localhost:3000/"><img class="footer-icon-home" src="./assets/house.png" alt=""></a>
+      <a href="http://localhost:5175/"><img class="footer-icon" src="./assets/team.png" alt=""></a>
+    </div>
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="trial.js"></script>
+   
+
+  </body>
+</html>
